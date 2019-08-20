@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Asap|Jua|Varela+Round');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    background-color: rgba(21, 130, 178, 0.58);
+        font-family: 'Varela Round', sans-serif;
+}
+
+header {
+    background: white;
+    padding: 30px;
+}
+
+header > h1 {
+    color: rgba(21, 130, 178, 0.58);
+    text-align: center;
+}
+
+.score-board {
+    border: 3px solid white;
+    width: 260px;
+    position: relative;
+    margin: 20px auto;
+    color: white;
+    font-size: 30px;
+    border-radius: 4px;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+.lable{
+    background: #009999;
+}
+
+#you-lable {
+    position: absolute;
+    left: -30px;
+    top: 15px;
+}
+
+#computer-lable {
+    position: absolute;
+    right: -75px;
+    top: 15px;
+}
+
+.result {
+    font-size: 40px;
+    color: white;
+    
+}
+
+.result > p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.choices {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.choice {
+    display: inline-block;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+
+.choice img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0 15px;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: #e67300;
+}
+
+#move {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-top: -40px;
+}
+
+
+
+
+
+
